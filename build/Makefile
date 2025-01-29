@@ -174,6 +174,67 @@ my_toolskit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/build
 .PHONY : my_toolskit/fast
 
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test.dir/build.make tests/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+src/Algorithms/Algorithms.o: src/Algorithms/Algorithms.cpp.o
+.PHONY : src/Algorithms/Algorithms.o
+
+# target to build an object file
+src/Algorithms/Algorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o
+.PHONY : src/Algorithms/Algorithms.cpp.o
+
+src/Algorithms/Algorithms.i: src/Algorithms/Algorithms.cpp.i
+.PHONY : src/Algorithms/Algorithms.i
+
+# target to preprocess a source file
+src/Algorithms/Algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.i
+.PHONY : src/Algorithms/Algorithms.cpp.i
+
+src/Algorithms/Algorithms.s: src/Algorithms/Algorithms.cpp.s
+.PHONY : src/Algorithms/Algorithms.s
+
+# target to generate assembly for a file
+src/Algorithms/Algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.s
+.PHONY : src/Algorithms/Algorithms.cpp.s
+
+src/Logger/Logger.o: src/Logger/Logger.cpp.o
+.PHONY : src/Logger/Logger.o
+
+# target to build an object file
+src/Logger/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o
+.PHONY : src/Logger/Logger.cpp.o
+
+src/Logger/Logger.i: src/Logger/Logger.cpp.i
+.PHONY : src/Logger/Logger.i
+
+# target to preprocess a source file
+src/Logger/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.i
+.PHONY : src/Logger/Logger.cpp.i
+
+src/Logger/Logger.s: src/Logger/Logger.cpp.s
+.PHONY : src/Logger/Logger.s
+
+# target to generate assembly for a file
+src/Logger/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.s
+.PHONY : src/Logger/Logger.cpp.s
+
 src/db/mysql/MysqlCapi.o: src/db/mysql/MysqlCapi.cpp.o
 .PHONY : src/db/mysql/MysqlCapi.o
 
@@ -211,6 +272,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... my_toolskit"
+	@echo "... test"
+	@echo "... src/Algorithms/Algorithms.o"
+	@echo "... src/Algorithms/Algorithms.i"
+	@echo "... src/Algorithms/Algorithms.s"
+	@echo "... src/Logger/Logger.o"
+	@echo "... src/Logger/Logger.i"
+	@echo "... src/Logger/Logger.s"
 	@echo "... src/db/mysql/MysqlCapi.o"
 	@echo "... src/db/mysql/MysqlCapi.i"
 	@echo "... src/db/mysql/MysqlCapi.s"

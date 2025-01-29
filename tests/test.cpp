@@ -1,47 +1,38 @@
-#include "Algorithms/Algorithms.h"
+// tests/logger_test.cpp
+#include <Logger/Logger.h>
+#include <nlohmann/json.hpp>
 #include <iostream>
+using namespace my_toolskit;
+using json = nlohmann::json;
+
+void logger_test() {
+    // 创建配置
+    json config = {
+        {"logger", {
+            {"logFileFullName", "/home/useryx/workspace/cpp/my_toolskit/build/bin/test_logger.txt"},
+            {"logFileMaxSize", 1},  // 1MB
+            {"logFilesCount", 2},
+            {"logPattern", "[%Y-%m-%d %H:%M:%S.%e]<%L>%v"},
+            {"logOnConsole", 1},
+            {"logLevel", "INFO"}
+        }}
+    };
+
+    // 初始化Logger
+    auto logger = Logger::getInstance();
+    if (logger->initialize(config) != 0) {
+        std::cerr << "Failed to initialize logger" << std::endl;
+        return;
+    }
+
+    // 测试日志
+    logger->info("Hello, World!");
+    logger->debug("This is a debug message");
+    logger->error("This is an error message");
+}
 
 int main() {
-    my_toolskit::Algorithms algo;
-    
-    // 1. GZip 压缩/解压缩示例
-    std::string original = "Hello World! This is a test string for GZip compression.";
-    std::string compressed, decompressed;
-    
-    std::cout << "Original string: " << original << std::endl;
-    
-    if (algo.compressByGZip(original, compressed) == my_toolskit::Error::SUCCESS) {
-        std::cout << "Compression successful. Compressed size: " << compressed.size() << std::endl;
-        
-        if (algo.decompressByGZip(compressed, decompressed) == my_toolskit::Error::SUCCESS) {
-            std::cout << "Decompression successful." << std::endl;
-            std::cout << "Decompressed string: " << decompressed << std::endl;
-        }
-    }
-    
-    // 2. Base64 编码/解码示例
-    std::string text = "Hello World! This is a Base64 encoding test.";
-    std::cout << "\nOriginal text: " << text << std::endl;
-    
-    // 字符串编码
-    std::string encoded = algo.base64Encode(text);
-    std::cout << "Base64 encoded: " << encoded << std::endl;
-    
-    // 字符串解码
-    std::string decoded = algo.base64Decode(encoded, true);
-    std::cout << "Base64 decoded: " << decoded << std::endl;
-    
-    // 二进制数据示例
-    std::vector<uint8_t> binary_data = {0x48, 0x65, 0x6C, 0x6C, 0x6F};  // "Hello" in hex
-    std::string encoded_binary = algo.base64Encode(binary_data);
-    std::cout << "\nBinary data Base64 encoded: " << encoded_binary << std::endl;
-    
-    std::vector<uint8_t> decoded_binary = algo.base64Decode(encoded_binary);
-    std::cout << "Binary data decoded (hex): ";
-    for (uint8_t byte : decoded_binary) {
-        printf("%02X ", byte);
-    }
-    std::cout << std::endl;
-    
+    // 测试代码
+    logger_test();
     return 0;
-} 
+}

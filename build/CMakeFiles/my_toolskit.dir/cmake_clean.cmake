@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o"
+  "CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o.d"
+  "CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o"
+  "CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o.d"
   "CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o"
   "CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o.d"
   "lib/libmy_toolskit.pdb"

@@ -12,6 +12,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
   "/home/useryx/workspace/cpp/my_toolskit/cmake/FindMySQL.cmake"
+  "/home/useryx/workspace/cpp/my_toolskit/tests/CMakeLists.txt"
+  "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfig.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.25/Modules/CMakeCInformation.cmake"
@@ -28,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake"
+  "/usr/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
@@ -41,6 +51,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeUnixFindMake.cmake"
+  "/usr/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake"
+  "/usr/share/cmake-3.25/Modules/CheckIncludeFile.cmake"
+  "/usr/share/cmake-3.25/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/usr/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
@@ -97,6 +110,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+  "/usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.25/Modules/FindThreads.cmake"
+  "/usr/share/cmake-3.25/Modules/FindZLIB.cmake"
+  "/usr/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake"
   "/usr/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake"
   "/usr/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake"
@@ -104,6 +122,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.25/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.25/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:
@@ -120,9 +139,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/my_toolskit.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test.dir/DependInfo.cmake"
   )

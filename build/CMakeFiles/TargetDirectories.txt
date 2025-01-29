@@ -5,3 +5,10 @@
 /home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles/install.dir
 /home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles/install/local.dir
 /home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles/install/strip.dir
+/home/useryx/workspace/cpp/my_toolskit/build/tests/CMakeFiles/test.dir
+/home/useryx/workspace/cpp/my_toolskit/build/tests/CMakeFiles/edit_cache.dir
+/home/useryx/workspace/cpp/my_toolskit/build/tests/CMakeFiles/rebuild_cache.dir
+/home/useryx/workspace/cpp/my_toolskit/build/tests/CMakeFiles/list_install_components.dir
+/home/useryx/workspace/cpp/my_toolskit/build/tests/CMakeFiles/install.dir
+/home/useryx/workspace/cpp/my_toolskit/build/tests/CMakeFiles/install/local.dir
+/home/useryx/workspace/cpp/my_toolskit/build/tests/CMakeFiles/install/strip.dir

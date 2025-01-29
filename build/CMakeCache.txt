@@ -233,6 +233,18 @@ MYSQL_INCLUDE_DIR:PATH=/usr/include/mariadb
 //Path to a library.
 MYSQL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libmariadb.so
 
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
+
+//The directory containing a CMake configuration file for fmt.
+fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
+
 //Value Computed by CMake
 my_toolskit_BINARY_DIR:STATIC=/home/useryx/workspace/cpp/my_toolskit/build
 
@@ -240,10 +252,13 @@ my_toolskit_BINARY_DIR:STATIC=/home/useryx/workspace/cpp/my_toolskit/build
 my_toolskit_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-my_toolskit_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libmariadb.so;
+my_toolskit_LIB_DEPENDS:STATIC=general;spdlog::spdlog;general;/usr/lib/x86_64-linux-gnu/libmariadb.so;general;/usr/lib/x86_64-linux-gnu/libz.so;
 
 //Value Computed by CMake
 my_toolskit_SOURCE_DIR:STATIC=/home/useryx/workspace/cpp/my_toolskit
+
+//The directory containing a CMake configuration file for spdlog.
+spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 
 
 ########################
@@ -328,6 +343,8 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/useryx/workspace/cpp/my_toolskit
@@ -350,7 +367,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -393,10 +410,20 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding ZLIB
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/x86_64-linux-gnu/libz.so][/usr/include][v1.2.13()]
 //ADVANCED property for variable: MYSQL_INCLUDE_DIR
 MYSQL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MYSQL_LIBRARY
 MYSQL_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test.dir/test.cpp.o -o ../bin/test  -Wl,-rpath,/home/useryx/workspace/cpp/my_toolskit/build/lib ../lib/libmy_toolskit.so.1.0.0 /usr/lib/x86_64-linux-gnu/libspdlog.so.1.10.0 /usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0 

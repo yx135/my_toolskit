@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/useryx/workspace/cpp/my_toolskit/src/Algorithms/Algorithms.cpp" "CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o" "gcc" "CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o.d"
+  "/home/useryx/workspace/cpp/my_toolskit/src/Logger/Logger.cpp" "CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o" "gcc" "CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o.d"
   "/home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp" "CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o" "gcc" "CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o.d"
   )
 
