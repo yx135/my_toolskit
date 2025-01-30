@@ -47,12 +47,13 @@ void sqlite3_test() {
 void mysql_test() {
     Connection mysql;
     // 从环境变量获取数据库连接信息
+    /*
     const char* host = std::getenv("MYSQL_HOST") ? std::getenv("MYSQL_HOST") : "localhost";
     int port = std::getenv("MYSQL_PORT") ? std::atoi(std::getenv("MYSQL_PORT")) : 3306;
     const char* user = std::getenv("MYSQL_USER") ? std::getenv("MYSQL_USER") : "root";
     const char* password = std::getenv("MYSQL_PASSWORD") ? std::getenv("MYSQL_PASSWORD") : "";
     const char* database = std::getenv("MYSQL_DATABASE") ? std::getenv("MYSQL_DATABASE") : "test";
-
+*/
     bool conn = mysql.connect(host, port, user, password, database);
     if (conn) {
         std::cout << "mysql open success" << std::endl;
