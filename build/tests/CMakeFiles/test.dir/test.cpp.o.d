@@ -214,12 +214,67 @@ tests/CMakeFiles/test.dir/test.cpp.o: \
  /usr/include/c++/12/experimental/bits/lfts_config.h \
  /usr/include/c++/12/experimental/bits/string_view.tcc \
  /usr/include/fmt/format.h /usr/include/fmt/core.h \
- /usr/include/spdlog/details/log_msg.h \
+ /usr/include/spdlog/common-inl.h /usr/include/spdlog/details/log_msg.h \
+ /usr/include/spdlog/details/log_msg-inl.h \
+ /usr/include/spdlog/details/os.h /usr/include/spdlog/details/os-inl.h \
+ /usr/include/c++/12/thread /usr/include/c++/12/bits/std_thread.h \
+ /usr/include/c++/12/bits/this_thread_sleep.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+ /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/linux/falloc.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
  /usr/include/spdlog/details/backtracer.h \
  /usr/include/spdlog/details/log_msg_buffer.h \
+ /usr/include/spdlog/details/log_msg_buffer-inl.h \
  /usr/include/spdlog/details/circular_q.h /usr/include/c++/12/mutex \
  /usr/include/c++/12/bits/std_mutex.h \
- /usr/include/c++/12/bits/unique_lock.h /usr/include/spdlog/spdlog.h \
- /usr/include/spdlog/details/registry.h /usr/include/spdlog/version.h \
+ /usr/include/c++/12/bits/unique_lock.h \
+ /usr/include/spdlog/details/backtracer-inl.h \
+ /usr/include/spdlog/logger-inl.h /usr/include/spdlog/sinks/sink.h \
+ /usr/include/spdlog/formatter.h /usr/include/spdlog/sinks/sink-inl.h \
+ /usr/include/spdlog/pattern_formatter.h \
+ /usr/include/spdlog/pattern_formatter-inl.h \
+ /usr/include/spdlog/details/fmt_helper.h /usr/include/spdlog/spdlog.h \
+ /usr/include/spdlog/details/registry.h \
+ /usr/include/spdlog/details/registry-inl.h \
+ /usr/include/spdlog/details/periodic_worker.h \
+ /usr/include/c++/12/condition_variable \
+ /usr/include/spdlog/details/periodic_worker-inl.h \
+ /usr/include/spdlog/sinks/ansicolor_sink.h \
+ /usr/include/spdlog/details/console_globals.h \
+ /usr/include/spdlog/sinks/ansicolor_sink-inl.h \
+ /usr/include/spdlog/version.h \
  /usr/include/spdlog/details/synchronous_factory.h \
- /usr/include/c++/12/iostream
+ /usr/include/spdlog/spdlog-inl.h /usr/include/c++/12/iostream \
+ /home/useryx/workspace/cpp/my_toolskit/include/db/sqlite3/CppSQLite3/CppSQLite3.h \
+ /usr/include/sqlite3.h \
+ /home/useryx/workspace/cpp/my_toolskit/include/db/mysql/MysqlCapi.h \
+ /usr/include/mariadb/mysql.h /usr/include/mariadb/mariadb_com.h \
+ /usr/include/mariadb/mariadb_version.h /usr/include/mariadb/ma_list.h \
+ /usr/include/mariadb/mariadb_ctype.h /usr/include/mariadb/mariadb_stmt.h

@@ -34,7 +34,7 @@
 //						-Added Name based parameter binding to CppSQLite3Statement.
 ////////////////////////////////////////////////////////////////////////////////
 //#include "stdafx.h"
-#include "CppSQLite3/CppSQLite3.h"
+#include "db/sqlite3/CppSQLite3/CppSQLite3.h"
 #include <cstdlib>
 
 namespace my_toolskit {

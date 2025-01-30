@@ -112,6 +112,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.25/Modules/FindSQLite3.cmake"
   "/usr/share/cmake-3.25/Modules/FindThreads.cmake"
   "/usr/share/cmake-3.25/Modules/FindZLIB.cmake"
   "/usr/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake"

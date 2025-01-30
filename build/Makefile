@@ -259,6 +259,30 @@ src/db/mysql/MysqlCapi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.s
 .PHONY : src/db/mysql/MysqlCapi.cpp.s
 
+src/db/sqlite3/CppSQLite3/CppSQLite3.o: src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o
+.PHONY : src/db/sqlite3/CppSQLite3/CppSQLite3.o
+
+# target to build an object file
+src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o
+.PHONY : src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o
+
+src/db/sqlite3/CppSQLite3/CppSQLite3.i: src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.i
+.PHONY : src/db/sqlite3/CppSQLite3/CppSQLite3.i
+
+# target to preprocess a source file
+src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.i
+.PHONY : src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.i
+
+src/db/sqlite3/CppSQLite3/CppSQLite3.s: src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.s
+.PHONY : src/db/sqlite3/CppSQLite3/CppSQLite3.s
+
+# target to generate assembly for a file
+src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_toolskit.dir/build.make CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.s
+.PHONY : src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -282,6 +306,9 @@ help:
 	@echo "... src/db/mysql/MysqlCapi.o"
 	@echo "... src/db/mysql/MysqlCapi.i"
 	@echo "... src/db/mysql/MysqlCapi.s"
+	@echo "... src/db/sqlite3/CppSQLite3/CppSQLite3.o"
+	@echo "... src/db/sqlite3/CppSQLite3/CppSQLite3.i"
+	@echo "... src/db/sqlite3/CppSQLite3/CppSQLite3.s"
 .PHONY : help
 
 

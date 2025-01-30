@@ -23,6 +23,7 @@ set(MY_TOOLSKIT_VERSION "${MY_TOOLSKIT_VERSION_MAJOR}.${MY_TOOLSKIT_VERSION_MINO
 # 查找 MySQL/MariaDB
 find_package(MySQL REQUIRED)
 find_package(ZLIB REQUIRED)
+find_package(SQLite3 REQUIRED)
 
 # 查找 spdlog
 set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "${PROJECT_SOURCE_DIR}/ThirdParty/spdlog")
@@ -48,7 +49,8 @@ include_directories(
 # 手动指定源文件
 set(SOURCES
    # src/DBManager/DBManager.cpp
-   # src/db/sqlite3/CppSQLite3/CppSQLite3.cpp
+    src/db/sqlite3/CppSQLite3/CppSQLite3.cpp
+    src/db/mysql/MysqlCapi.cpp
     src/Logger/Logger.cpp
    # src/Date/Date.cpp
    # src/Network/Network.cpp
@@ -65,13 +67,14 @@ set(SOURCES
     # src/StreamDataBuffer/StreamDataBuffer.cpp
     # src/Uart/Uart.cpp
     src/db/mysql/MysqlCapi.cpp
+    src/db/sqlite3/CppSQLite3/CppSQLite3.cpp
 )
 
 # 手动指定头文件
 set(HEADERS
      include/Error.h
     # include/DBManager/DBManager.h
-    # include/db/sqlite3/CppSQLite3/CppSQLite3.h
+     include/db/sqlite3/CppSQLite3/CppSQLite3.h
      include/Logger/Logger.h
     # include/Date/Date.h
     # include/Network/Network.h
@@ -100,10 +103,13 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 )
 
 # 链接依赖库
-target_link_libraries(${PROJECT_NAME} PRIVATE spdlog::spdlog)
+target_link_libraries(${PROJECT_NAME} PRIVATE 
+    spdlog::spdlog
+    ${MYSQL_LIBRARY} 
+    ${ZLIB_LIBRARIES}
+    SQLite::SQLite3
+)
 
-# 链接依赖库
-target_link_libraries(${PROJECT_NAME} PRIVATE ${MYSQL_LIBRARY} ${ZLIB_LIBRARIES})
 # 添加示例目录
 # Sadd_subdirectory(examples)
 

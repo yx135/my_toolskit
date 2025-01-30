@@ -69,10 +69,38 @@ include CMakeFiles/my_toolskit.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/my_toolskit.dir/flags.make
 
+CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o: CMakeFiles/my_toolskit.dir/flags.make
+CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o: /home/useryx/workspace/cpp/my_toolskit/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp
+CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o: CMakeFiles/my_toolskit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o -MF CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o.d -o CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o -c /home/useryx/workspace/cpp/my_toolskit/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp
+
+CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/useryx/workspace/cpp/my_toolskit/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp > CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.i
+
+CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/useryx/workspace/cpp/my_toolskit/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp -o CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.s
+
+CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o: CMakeFiles/my_toolskit.dir/flags.make
+CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o: /home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp
+CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o: CMakeFiles/my_toolskit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o -MF CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o.d -o CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o -c /home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp
+
+CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp > CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.i
+
+CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp -o CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.s
+
 CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o: CMakeFiles/my_toolskit.dir/flags.make
 CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o: /home/useryx/workspace/cpp/my_toolskit/src/Logger/Logger.cpp
 CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o: CMakeFiles/my_toolskit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o -MF CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o.d -o CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o -c /home/useryx/workspace/cpp/my_toolskit/src/Logger/Logger.cpp
 
 CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.i: cmake_force
@@ -86,7 +114,7 @@ CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.s: cmake_force
 CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o: CMakeFiles/my_toolskit.dir/flags.make
 CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o: /home/useryx/workspace/cpp/my_toolskit/src/Algorithms/Algorithms.cpp
 CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o: CMakeFiles/my_toolskit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o -MF CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o.d -o CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o -c /home/useryx/workspace/cpp/my_toolskit/src/Algorithms/Algorithms.cpp
 
 CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.i: cmake_force
@@ -97,39 +125,28 @@ CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/useryx/workspace/cpp/my_toolskit/src/Algorithms/Algorithms.cpp -o CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.s
 
-CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o: CMakeFiles/my_toolskit.dir/flags.make
-CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o: /home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp
-CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o: CMakeFiles/my_toolskit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o -MF CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o.d -o CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o -c /home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp
-
-CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp > CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.i
-
-CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/useryx/workspace/cpp/my_toolskit/src/db/mysql/MysqlCapi.cpp -o CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.s
-
 # Object files for target my_toolskit
 my_toolskit_OBJECTS = \
+"CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o" \
+"CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o" \
 "CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o" \
-"CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o" \
-"CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o"
+"CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o"
 
 # External object files for target my_toolskit
 my_toolskit_EXTERNAL_OBJECTS =
 
+lib/libmy_toolskit.so.1.0.0: CMakeFiles/my_toolskit.dir/src/db/sqlite3/CppSQLite3/CppSQLite3.cpp.o
+lib/libmy_toolskit.so.1.0.0: CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o
 lib/libmy_toolskit.so.1.0.0: CMakeFiles/my_toolskit.dir/src/Logger/Logger.cpp.o
 lib/libmy_toolskit.so.1.0.0: CMakeFiles/my_toolskit.dir/src/Algorithms/Algorithms.cpp.o
-lib/libmy_toolskit.so.1.0.0: CMakeFiles/my_toolskit.dir/src/db/mysql/MysqlCapi.cpp.o
 lib/libmy_toolskit.so.1.0.0: CMakeFiles/my_toolskit.dir/build.make
 lib/libmy_toolskit.so.1.0.0: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.10.0
 lib/libmy_toolskit.so.1.0.0: /usr/lib/x86_64-linux-gnu/libmariadb.so
 lib/libmy_toolskit.so.1.0.0: /usr/lib/x86_64-linux-gnu/libz.so
+lib/libmy_toolskit.so.1.0.0: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 lib/libmy_toolskit.so.1.0.0: /usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0
 lib/libmy_toolskit.so.1.0.0: CMakeFiles/my_toolskit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library lib/libmy_toolskit.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library lib/libmy_toolskit.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_toolskit.dir/link.txt --verbose=$(VERBOSE)
 	$(CMAKE_COMMAND) -E cmake_symlink_library lib/libmy_toolskit.so.1.0.0 lib/libmy_toolskit.so.1 lib/libmy_toolskit.so
 

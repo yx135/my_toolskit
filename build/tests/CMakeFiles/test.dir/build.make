@@ -93,7 +93,6 @@ test_EXTERNAL_OBJECTS =
 bin/test: tests/CMakeFiles/test.dir/test.cpp.o
 bin/test: tests/CMakeFiles/test.dir/build.make
 bin/test: lib/libmy_toolskit.so.1.0.0
-bin/test: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.10.0
 bin/test: /usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0
 bin/test: tests/CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/useryx/workspace/cpp/my_toolskit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/test"

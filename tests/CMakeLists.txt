@@ -12,7 +12,7 @@ target_include_directories(test PRIVATE
 # 链接必要的库
 target_link_libraries(test PRIVATE 
     my_toolskit
-    spdlog::spdlog
+    #spdlog::spdlog
     fmt::fmt
 )
 
